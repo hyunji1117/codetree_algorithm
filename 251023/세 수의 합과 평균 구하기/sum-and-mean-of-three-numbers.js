@@ -6,4 +6,4 @@ let B = Number(input[1]);
 let C = Number(input[2]);
 
 console.log(A + B + C);
-console.log(((A + B + C) / 3).toFixed(0));
+console.log(parseInt((A + B + C) / 3));
