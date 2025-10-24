@@ -6,6 +6,6 @@ let N = Number(input);
 if (N > 80) {
     console.log("pass");
 } else {
-    x = Number(80) - N;
+    let x = Number(80) - N;
     console.log(`${x} more score`);
 }
