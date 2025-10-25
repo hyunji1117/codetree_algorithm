@@ -8,7 +8,7 @@ else if (N >= 1000) {
     console.log("mask");
 } 
 else if (N >= 500) {
-    console.log("500");
+    console.log("pen");
 } 
 else {
     console.log("no");
