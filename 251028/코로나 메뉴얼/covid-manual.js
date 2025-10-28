@@ -12,10 +12,8 @@ temp_C = Number(temp_C);
 if (coldSymptoms_A === 'Y') {
     if (temp_A >= 37) {
         resultA = ("A");
-    } else if (temp_A < 37) {
-        resultA = ("C")
     } else {
-        resultA = ("D");
+        resultA = ("C")
     }
 } else if (coldSymptoms_A === 'N') {
     if (temp_A >= 37) {
@@ -27,9 +25,9 @@ if (coldSymptoms_A === 'Y') {
 
 if (coldSymptoms_B === 'Y') {
     if (temp_B >= 37) {
-        resultB = ("C");
+        resultB = ("A");
     } else {
-        resultB = ("D");
+        resultB = ("C");
     }
 } else if (coldSymptoms_B === 'N') {
     if (temp_B >= 37) {
