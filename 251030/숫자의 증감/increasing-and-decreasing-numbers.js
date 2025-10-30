@@ -1,9 +1,3 @@
-// const fs = require("fs");
-// let N = fs.readFileSync(0).toString().trim();
-
-// const fs = require("fs");
-// let N = Number(fs.readFileSync(0).toString().trim());
-
 const fs = require("fs");
 let input = fs.readFileSync(0).toString().trim().split(" ");
 
