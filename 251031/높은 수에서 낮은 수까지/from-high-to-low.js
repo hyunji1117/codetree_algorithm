@@ -6,12 +6,12 @@ let B = Number(input[1]);
 
 let result = "";
 
-if (A > B) {
+if (A >= B) {
     for (let i = A; i >= B; i--) {
         result += (i + " ");
     }
     console.log(result);
-} else if (B > A) { 
+} else if (B >= A) { 
     for (let i = B; i >= A; i--) {
         result += (i + " ");
     }
