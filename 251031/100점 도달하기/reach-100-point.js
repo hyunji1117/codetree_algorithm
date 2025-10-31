@@ -8,13 +8,13 @@ while (i <= 100) {
     if (i >= 90) {
         result += "A" + " ";
     }
-    else if (N >= 80) {
+    else if (i >= 80) {
         result += "B" + " ";
     }
-    else if (N >= 70) {
+    else if (i >= 70) {
         result += "C" + " ";
     }
-    else if (N >= 60) {
+    else if (i >= 60) {
         result += "D" + " ";
     }
     else {
